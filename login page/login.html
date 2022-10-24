@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(90deg, #1d3557, #f1faee, #a8dadc);
+      padding: 0 10px;
+     
+    }
+
+    .wrapper {
+      max-width: 500px;
+      width: 100%;
+      background: #f1faee;
+      margin: 20px auto;
+      padding: 30px;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    }
+
+    .wrapper .title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: linear-gradient(90deg, #03045E, #48CAE4, #ADE8F4);
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .wrapper .form {
+      width: 100%;
+
+    }
+
+    .wrapper .form .input-field {
+      margin-bottom: 15px;
+      align-items: center;
+
+    }
+
+    .wrapper .form .input-field p {
+      margin: 0 0 10px;
+      color: black;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .wrapper .form .input-field .input {
+      width: 100%;
+      outline: none;
+      border: 1px solid #283618;
+      font-size: 15px;
+      padding: 8px 8px;
+      border-radius: 3px;
+      transition: all 0.2s ease;
+    }
+
+    .wrapper .form .input_field p {
+      font-size: 14px;
+      color: #1D3557;
+      right: 100px;
+      position: relative;
+      bottom: 15.5px;
+      left: 18px
+    }
+
+    .wrapper .form .input_field .check {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+
+    .wrapper .form button {
+      width: 100%;
+      padding: 6px;
+      color: white;
+      background: linear-gradient(90deg, #000000, #48CAE4, #ADE8F4);
+      border-radius: 5px;
+      font-size: 15px;
+      border: 0;
+    }
+
+    .wrapper .form button a {
+      text-decoration: none;
+    }
+
+    .wrapper .form button:hover {
+      cursor: pointer;
+      background-color: #14213d;
+      color: #f1faee;
+      font-weight: bold;
+    }
+
+    .wrapper .form .pass {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .wrapper .form .pass a:hover {
+      cursor: pointer;
+      color: #1d3557;
+      background-color:#ADE8F4;
+    }
+    .wrapper .form .pass a:active {
+      color: blue;
+    }
+
+    .wrapper .form .pass a:visited {
+      color: blue;
+    }
+
+
+  </style>
+  <title>LOGIN</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title">
+      <h1>User LOGIN</h1>
+    </div>
+    <form action="success2.html">
+      <div class="form">
+        <div class="input-field">
+          <p>Email or Username</p>
+          <input type="text" class="input" placeholder="Username" required>
+        </div>
+
+        <div class="input-field">
+          <p>Password</p>
+          <input type="password" class="input" placeholder="Your secret code" required>
+        </div>
+
+        <div class="input_field">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Remember Me</p>
+        </div>
+
+        <div class="button">
+          <button type="submit" value="Submit"><a href="success2.html">Submit</a></button>
+        </div>
+
+        <div class="pass">
+          <p>New Here? <a href="index.html" target="_blank">Sign Up</a></p>
+          <a href="#">forgot Password?</a>
+
+        </div>
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>

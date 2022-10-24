@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>contact me
+  </title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(90deg, #1d3557, #f1faee, #a8dadc);
+      padding: 0 10px;
+
+    }
+
+
+    #contact {
+      max-width: 500px;
+      width: 100%;
+      background: #f1faee;
+      margin: 20px auto;
+      padding: 30px;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    }
+
+    #contact h1 {
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: linear-gradient(90deg, #03045E, #48CAE4, #ADE8F4);
+      text-transform: uppercase;
+      text-align: center;
+
+    }
+
+
+    #contact .form .input {
+      width: 100%;
+      padding: 12px;
+      margin: 4px;
+    }
+
+
+    #contact .form .msg {
+      margin: 20px 0 20px;
+      width: 100%;
+    }
+
+    #contact #send {
+      padding: 10px 8px;
+      width: 100%;
+      background-color: #48CAE4;
+
+    }
+
+    #send:hover {
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      background: #1d3557;
+    }
+
+    #contact .social1 {
+      display: flex;
+     align-items: center;
+     justify-content: center;
+      margin: 20px;
+      
+    }
+
+    .social1 a {
+      font-size: 28px;
+      color: black;
+      margin-right: 30px;
+      text-decoration: none;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="contact">
+    <h1 class="heading">Contact</h1>
+    <form action="" class="form">
+      <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+      <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+
+      <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" class="msg"
+        required></textarea>
+      <input type="submit" value="SEND" id="send">
+    </form>
+
+    <div class="social1">
+      <a href="https://github.com/idowuojeyemi" target="_blank" class="fa fa-github">Github</a>
+      <a href="https://twitter.com/ojeyemiidowu" target="_blank" class="fa fa-twitter">Twitter</a>
+      <a href="https://codepen.io/idowuojeyemi" target="_blank" class="fa fa-codepen">codepen</a>
+    </div>
+
+  </section>
+
+</body>
+
+</html>

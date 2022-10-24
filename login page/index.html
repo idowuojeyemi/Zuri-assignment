@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Page</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="title">
+      <h1>Registration Form</h1>
+    </div>
+    <form action="success.html">
+      <div class="form">
+        <div class="input_field">
+          <label>First Name:</label>
+          <input type="text" class="input" placeholder="First Name" required>
+        </div>
+        <div class="input_field">
+          <label>Other Name:</label>
+          <input type="text" class="input" placeholder="Other Names" required>
+        </div>
+        <div class="input_field">
+          <label>UserName:</label>
+          <input type="text" class="input" placeholder="choose a unique name" required>
+        </div>
+        <div class="input_field">
+          <label>Date of Birth:</label>
+          <div class="custom">
+            <input type="date" class="select" value="2022-10-13" required>
+          </div>
+        </div>
+
+        <div class="input_field">
+          <label>Password:</label>
+          <input type="password" class="input" placeholder="Your secret code" required>
+        </div>
+        <div class="input_field">
+          <label>Confirm Password:</label>
+          <input type="password" class="input" placeholder="Confirm your secret code" required>
+        </div>
+        <div class="input_field">
+          <label>Favorite color:</label>
+          <input type="color" class="color" name="favcolor" value="#ff0000">
+        </div>
+        <div class="input_field">
+          <label>Gender:</label>
+          <div class="custom">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+        </div>
+        <div class="input_field">
+          <label>Email:</label>
+          <input type="email" class="input" placeholder="Enteryouremail@gmail.com" required >
+        </div>
+
+        <div class="input_field">
+          <label>PhoneNumber:</label>
+          <input type="number" class="input" placeholder="+2348177458976">
+        </div>
+        <div class="input_field">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+        </div>
+
+
+      </div>
+      <div class="button">
+        <button type="submit" value="Submit"><a href="success.html">Submit</a></button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

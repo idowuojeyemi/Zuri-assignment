@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #606c38;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 10px 0;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 40px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(40, 54, 24);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+  color: whitesmoke;
+  padding-right: 0;
+  padding-left: 26px;
+}
+
+span {
+  color: #fca311;
+  padding-right: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #fca311;
+  transition: 0.4s;
+}
+
+.main {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.main h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.main .front {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fefae0;
+}
+
+.main h1 span {
+  color: bisque;
+  font-weight: bold;
+  color: #bc6c25;
+}
+.main p {
+  color: black;
+  line-height: 22px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.main button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fefae0;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.img-box img {
+  height: 94%;
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  opacity: 0.7;
+}
+
+.social1 {
+  margin-left: 8%;
+  margin-top: 25px;
+}
+
+.social1 a {
+  font-size: 28px;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-github:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+}
+
+.fa-twitter:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+}
+
+.fa-codepen:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+#about {
+  position: absolute;
+  top: 25rem;
+}
+.heading {
+  display: block;
+  font-family: century;
+  font-size: 3em;
+  text-align: center;
+  margin: 10px;
+}
+
+#about {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 15px;
+ position: relative;
+ background-color: #FEFAE0;
+}
+
+.heading {
+  margin-top: 0%;
+}
+
+#pic {
+  display: flex;
+  padding: 40px;
+}
+
+#pic img {
+  width: 500px;
+  height: 300px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+  padding-right: 0;
+}
+
+#intro p {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#intro h2 {
+  display: block;
+  color: #fca311;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.social {
+  display: flex;
+  width: 40px;
+  margin-left: 8%;
+  position: relative;
+  left: 0;
+  bottom: 150px;
+  left: 50%;
+}
+
+.social a {
+  font-size: 28px;
+  color: black;
+  margin-right: 30px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.fa-github:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+}
+
+.fa-twitter:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+}
+
+.fa-codepen:hover {
+  background-color: #fefae0;
+  color: black;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.code {
+  margin-top: 0;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+#portfolio {
+  position:relative;
+  top: 35rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFAE0;
+  align-items: center;
+  color: black;
+  padding: 20px;
+
+}
+.port {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 360px;
+  height: 240px;
+  margin: 10px;
+}
+
+.gallery a:hover {
+  font-weight: bold;
+  background-color: #606c38;
+  color: whitesmoke;
+}
+
+#service {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.row h1{
+  position: absolute;
+  bottom: 25rem;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 48px;
+  background-color: #FEFAE0;
+}
+.row h2{
+  color: black;
+}
+
+.row {
+  background-color: #FEFAE0;
+  display: flex;
+  position: relative;
+  top: 50rem;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  border-radius: 15px;
+  background: wheat;
+  background-size: 100% 200%;
+  transition: all .8s;
+  padding: 20px;
+}
+
+.box:hover {
+  background-position: left bottom;
+  color: white;
+}
