@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.item {
+  width: 100%;
+  max-width: 17rem;
+  font-size: 15px;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  font-family: 'Big Shoulders Display', cursive;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+ 
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  font-family: 'Big Shoulders Display', cursive;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.item img {
+  padding: 20px;
+}
+
+.item h2 {
+  color: hsl(0, 0%, 95%);
+  padding: 20px;
+}
+
+
+.item p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px
+}
+
+.item .btn {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.item button {
+  padding: 8px 12px;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.item .suvs button {
+  padding: 8px 12px;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.item .luxury button {
+  padding: 8px 12px;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 700px) and (min-width: 375px) {
+  .content{
+    flex-flow: wrap;
+    width: 100%;
+  }
+}
+
+.grid {
+  position: relative;
+  top: 14rem;
+  right: 30rem;
+}
+
+.grid button{
+  padding: 18px 20px;
+  background-color: black;
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+  
+}
+
+.grid button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
