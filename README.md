@@ -1,6 +1,6 @@
 # Zuri X I4G Training 
 
-This repo contains **Zuri X I4G** cohort2 training assignments of week3 to week5 divided into three branches ``week3`` ``week4`` ``week5`` merged to the ```main branch``` as one.
+This repo contains **Zuri X I4G** cohort2 training assignments of week3 to week5 divided into three branches ``week3`` ``week4`` ``week5``.
 
 ## Week3 consists of;
 - [Zuri_Portfolio-Task](https://github.com/idowuojeyemi/Zuri-assignment/tree/week3/portfolio) | [Live Link](https://portfolio.idowuojeyemi.repl.co/)
